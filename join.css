@@ -1,0 +1,254 @@
+body {
+	margin: 0ch;
+	padding: 0ch;
+    height: 100vh; 
+
+}
+.navigation {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	z-index: 20;
+	
+ 
+	
+}
+.logo {
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(214, 8, 8);
+	display: flex;
+	gap: 10px;
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 25px rgb(237, 237, 243), 0 0 5px rgb(245, 245, 247);
+}
+
+.logo h2 {
+	font-size: x-small;
+}
+.nav-items {
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	list-style: none;
+	gap: 25px;
+	align-items: center;
+	justify-content: center;
+}
+.nav-link {
+	text-decoration: none;
+	color: #f1ebeb;
+}
+.nav-link:hover {
+	color: rgb(255, 0, 0);
+}
+.intro2{
+	padding:0ch ;
+ margin: 0ch; 
+	height: 650px;
+
+
+}
+.main-join{
+	background-image: url(../res/joinn2.jpg);
+	 background-position: center; 
+	 background-size: cover; 
+}
+
+.card {
+	margin-top: 20px;
+	border-radius: 10px;
+	height: 320px;
+	width: 320px;
+	 display: flex;
+	flex-direction: column; 
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.596);
+	gap: 15px;
+	box-shadow: 0 5px 5px 5px rgba(128, 128, 128, 0.377);
+}
+.card-input {
+	 display: flex; 
+	gap: 10px;
+	flex-direction: column;
+	align-items: center;
+}
+.input {
+	width: 250px;
+	height: 30px;
+	border-radius: 5px;
+	border-color: transparent;
+}
+.birth-input{
+	display: flex;
+	gap:50px;
+	
+}
+.birth-label{
+	margin-top:3px;
+	opacity:70%;
+}
+
+.txt-card {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	margin: 10px 0 0 0;
+}
+.button {
+	font-family: 'Montserrat', sans-serif;
+	height: 30px;
+	width: 127px;
+	border-radius: 5px;
+	border-color: transparent;
+	background-color: red;
+	text-decoration: solid;
+	color: white;
+}
+
+.big-butt{
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 5px;
+	border-color: transparent;
+	background-color: rgb(39, 39, 39);
+	text-decoration: solid;
+	color: white;
+	color: white;
+	margin: 10px 0 10px 4;
+	width: 258px;
+	height: 40px;
+}
+
+.button:focus {
+	background-color: rgba(5, 5, 5, 0.795);
+	box-shadow: rgb(92, 91, 91) 2px 2px 5px 2px;
+}
+
+
+.big-butt:hover {
+	background-color: rgba(241, 14, 14, 0.959);
+	color: white;
+}
+
+.sign-fb2 {
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	width: 250px;
+	background-color:rgb(5,113,230);
+	border-radius: 10px;
+	border-style: solid;
+	margin-top: 10px;
+}
+.sign-fb2:hover {
+	background-color:rgba(155, 6, 6, 0.795);
+}
+.sign-text {
+	color: black;
+	font-weight: lighter;
+	font-size: 17px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-right: 50px;
+}
+#icon {
+	height: 25px;
+	 margin-top: 7px; 
+	margin-left: 13px;
+}
+.sign-link {
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+}
+#cards {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	margin: 135px 100px;
+
+gap: 500px;
+}
+.txt-head {
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(255, 255, 255);
+	margin: 0ch;
+	margin-top: 45px;
+	margin-left: 380px;
+	position: absolute;
+	text-align: center;
+	text-shadow: -1px 1px 0 #000,
+	1px 1px 0 #000,
+	1px -1px 0 #000,
+   -1px -1px 0 #000;;
+}
+.parg {
+	font-family: 'Montserrat', sans-serif;
+	height: auto;
+	text-align: center;
+}
+.parag {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+.parag-card {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.footer-join{
+	background-color:rgb(180, 171, 171);
+     position: absolute;
+	 width: 100%;
+	 height: 60px;
+
+}
+.footer-join h1{
+	color:black;
+	font-size: medium;
+	margin-left:550px;
+    margin-top:20px ;
+}
+
+.fb-icon2{
+     position: absolute; 
+    width: 80px;
+     margin-left:700px;   
+    
+	 margin-top: 592px;  
+}
+.fb-icon2:hover{
+    filter: grayscale(100%);
+}
+
+
+.tw-icon2{
+    width: 60px;
+     margin-left: 650px; 
+     position: absolute; 
+	 margin-top: 590px;
+    
+}
+.tw-icon2:hover{
+	filter: grayscale(100%);
+}
+.pnt-icon2{
+   width: 38px;
+    margin-left: 600px; 
+   
+   position: absolute;
+   margin-top: 600px;
+}
+.pnt-icon2:hover{
+    filter: grayscale(100%);
+}
+.insta-icon2{
+     position: absolute; 
+    width: 38px;
+     margin-left:550px; 
+   
+	margin-top: 600px;
+
+}
+.insta-icon2:hover{
+	filter: grayscale(100%);
+}
