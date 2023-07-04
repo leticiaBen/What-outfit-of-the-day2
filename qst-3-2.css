@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to top, #080213 40%, #160236 100%);
+}
+
+#all-items {
+	margin: 30.3vh 30vw;
+	line-height: 40px;
+}
+#choice {
+	text-align: center;
+	line-height: 30px;
+	margin-top: 100px;
+}
+.txt {
+	font-family: 'Press Start 2P', cursive;
+	color: #fff900;
+	text-shadow: 0 0 7px #ff6c00;
+	font-size: 15px;
+	text-align: center;
+}
+.link-2 {
+	font-family: 'Press Start 2P', cursive;
+	color: #fff900;
+	text-shadow: 0 0 7px #ff6c00;
+	text-decoration: none;
+	font-size: 20px;
+}
+.link-3 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 20px;
+}
+
+.link-3:hover {
+	color: red;
+}
+.link-2:hover {
+	color: red;
+}

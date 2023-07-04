@@ -1,0 +1,31 @@
+#all-items {
+	margin: 23vh 30vw;
+	line-height: 40px;
+}
+#choice {
+	text-align: center;
+	line-height: 30px;
+	margin-top: 100px;
+}
+.txt {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 20px;
+	text-align: center;
+}
+.link-2 {
+	font-family: 'Press Start 2P', cursive;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+.link-3 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 20px;
+}
+
+.link-3:hover {
+	color: red;
+}
+.link-2:hover {
+	color: red;
+}

@@ -1,23 +1,42 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
-
-
-*{
-    
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+#txt {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	font-size: 13px;
+	margin: 50px;
 }
-main{
-
-    background-color: black;
+h2 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	line-height: 70px;
 }
-.feed{
-    display: flex;
-    gap: 140px;
-    margin:0 130px 0 130px; 
-
-    
+.link {
+	margin-top: 22vh;
+}
+.ptn {
+	font-size: 25px;
+	margin: 0;
+	text-decoration: underline transparent;
+}
+.txt-2 {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	/* text-decoration: underline #fff900; */
 }
 
-
+.back{
+width: 160px;
+height: 40px;
+border-radius:5px ;
+margin-left: 50px;
+background-color: rgba(187, 22, 22, 0.747);
+}
+.back a{
+	text-decoration: none;
+	color:white;
+}
+.back:hover{
+	background-color: rgba(196, 174, 174, 0.493);
+}

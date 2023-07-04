@@ -1,0 +1,66 @@
+body {
+	background: linear-gradient(to top right, #00a4a6 70%, #7cadae 100%);
+	margin: 0;
+}
+
+.img-1 {
+	z-index: 0;
+	height: 300px;
+	width: auto;
+	margin-bottom: 0;
+	margin-top: 52vh;
+	margin-left: 20vw;
+}
+.align {
+	display: flex;
+	align-items: center;
+}
+.txt {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	font-size: 25px;
+	margin-bottom: 100px;
+	margin-left: 100px;
+	text-align: center;
+	line-height: 30px;
+}
+.link-1 {
+	font-family: 'Press Start 2P', cursive;
+	text-decoration: none;
+	font-size: 18px;
+	/* animation: flash 2s linear infinite; */
+
+	color: white;
+}
+
+.link-2 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+	text-decoration: none;
+	/* animation: flash 2s linear infinite; */
+	color: white;
+}
+#choice {
+	line-height: 30px;
+	margin-left: 40px;
+}
+.link-2:hover {
+	animation: flash 0.5s linear infinite;
+}
+.link-1:hover {
+	animation: flash 0.5s linear infinite;
+}
+@keyframes flash {
+	0% {
+		color: white;
+		text-shadow: 0 0 5px #dde938;
+	}
+	60% {
+		color: #dde938;
+		text-shadow: 0 0 5px white;
+	}
+	100% {
+		color: white;
+		text-shadow: 0 0 5px #dde938;
+	}
+}
