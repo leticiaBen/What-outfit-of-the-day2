@@ -1,0 +1,733 @@
+/* feed post */
+.feed-post{
+    width: 600px;
+    background-color: rgb(0, 0, 0);
+    margin-top:70px;
+}
+.feed-post-details{
+    width:650px ;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+}
+.feed-post-details-text{
+    font-size: medium;
+    color: rgb(236, 246, 255);
+    font-weight: lighter;
+    
+}
+.line{
+    margin-top: 25px;
+}
+
+   /* box de GENDER et ALL OVER ALGERIA */
+.selectBox{
+    padding: 0;
+    height: 80px;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+ #box1 {
+    border-style: solid;
+    border-color: white;
+    width: 100px;
+    height: 45px;
+    border-radius: 9px;
+    padding: 0%;
+    background-color:rgba(219, 207, 207, 0.151);
+
+ }
+ #box1:hover{
+     background-color: rgba(250, 4, 4, 0.418);
+ }
+ #box2{
+    border-style: solid;
+    border-color: white;
+     width: 100px;
+     height: 45px;
+     border-radius: 9px;
+    padding: 0%;
+    background-color:rgba(219, 207, 207, 0.151);
+ }
+ #box2:hover{
+     background-color: rgba(250, 4, 4, 0.418);
+ }
+ #box1-title {
+      margin-top: 8px; 
+     text-align: center;
+     font-size: 20px;
+     color: white;
+    width: 100px;
+    height: 45px;
+ }
+
+ #box2-title{
+     margin-top: 2px;
+     text-align: center;
+     font-size: 15px;
+     color: white;
+    width: 100px;
+    height: 45px;
+ }
+
+.select-box.select-box-list{
+    display:inline-block;
+    position:relative;
+    width: 100px;
+    height: 45px;
+}
+.select-box .select-box-list a{
+    text-align: center;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-size:medium;
+    font-weight: lighter;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+
+.select-box-list a:hover{
+height: 30px;
+font-size: larger;
+color: white;
+}
+
+/* dropdown out when hovering */
+.select-box .select-box-list .dropdown {
+    z-index: 4;
+    width: 100px;
+    list-style: none;
+    background-color: rgba(153, 146, 146, 0.781);
+    position: absolute;
+
+}
+
+#dropdown1 a{
+    height: 45px;
+}
+#dropdown2 a{
+    height: 45px;
+     text-align: center;
+    font-size:medium;
+}
+#dropdown1 a:hover{
+    background-color: rgb(168, 2, 2);
+}
+#dropdown2 a:hover{
+    background-color: rgb(168, 2, 2);
+}
+.select-box .select-box-list .dropdown{
+    display: none;
+}
+.select-box .select-box-list:hover .dropdown{
+    display: block;
+    
+}
+/* posts */
+.posts{
+    margin-top: 50px;
+    background-color: white;
+     width:600px; 
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    border: solid;
+
+    /* border-color: white; */
+    
+}
+/* POST UTILISATEUR */
+.post-utls{
+    width:600px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border: solid;
+    border-color: white;
+    border-width: thin;
+    margin: 0ch;
+
+}
+ .post-utls4{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+
+} 
+.post-utls9{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+/* img utilisateur */
+.img-utls-post1{
+    margin-left:10px;
+    clip-path:ellipse(50% 40%);  
+    height:80%; 
+    border: solid;
+    border-color: white;
+}
+.img-utls-post4{
+
+    margin-left:10px;
+    clip-path:ellipse(50% 40%);  
+    height:80%; 
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+
+.img-utls-post9{
+
+    margin-left:10px;
+    clip-path:ellipse(50% 40%);  
+    height:80%; 
+    border: solid;
+    border-width: thin;
+    border-color: white; 
+}
+
+
+.nom-utls-post{
+    margin-top: 10px;
+    margin-left:10px;
+    font-size:medium;
+    font-weight: normal;
+    color: white;
+    text-decoration:none;
+   
+}
+
+.nom-utls-post:hover{
+    color: rgba(235, 19, 19, 0.699);
+}
+.follow{
+    background-color: rgb(254, 254, 255); 
+    height: 25px;
+    width: 90px;
+    display:flex;
+    gap:7px;
+    border-radius: 6px;
+    margin-left:20px;
+    margin-top:8px;
+}
+.follow:hover{
+    background-color: rgba(187, 14, 14, 0.658);
+    height: 25px;
+    width: px;
+}
+.follow a:hover{
+    color: black;
+}
+.icon-follow{
+    margin-top: 2.5px;
+    height: 17px; 
+    color: white;
+    margin-left: 5px;
+}
+.text-follow{
+    text-decoration: none;
+    margin-right:4px ;
+    margin-top:1px;
+    color: rgb(0, 0, 0);
+    font-weight: meduim;
+    font-size: 17px;
+}
+/* post caption */
+.post-caption{
+    width: 600px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: solid;
+    border-color: white;
+    border-width: thin;
+}
+/* post picture */
+.post-pic1{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post1.1.jpg);
+    background-position:center;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic2{
+    width: 600px;
+    height:560px;
+    
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post2.jpg);
+    background-repeat: no-repeat;
+    background-position:center left ;
+    background-size: 100%;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+
+}
+.post-pic3{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post3.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: 100%;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic4{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post4.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+
+.post-pic5{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post5.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+
+}
+.post-pic6{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post6.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+
+}
+
+.post-pic7{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post7.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic8{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post8.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+
+.post-pic9{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post9.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+
+.post-pic10{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post10.jpg);
+    background-repeat: no-repeat;
+     background-position:center; 
+     background-size: cover; 
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic11{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post11.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic12{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post12.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic13{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post13.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+
+.post-pic14{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post14.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic15{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post15.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+
+.post-pic16{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post16.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic17{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post17.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic18{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post18.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic19{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post19.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic20{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post20.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic21{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post21.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic22{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post22.jpg);
+    background-repeat: no-repeat;
+     background-position:center; 
+     background-size:cover; 
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic23{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post23.jpg);
+    background-repeat: no-repeat;
+    background-position:center;  
+    background-size: cover; 
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+
+.post-pic24{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post24.jpg);
+    background-repeat: no-repeat;
+     background-position:center; 
+     background-size: cover; 
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic25{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post25.jpg);
+    background-repeat: no-repeat;
+    background-position:center; 
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic26{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post26.jpg);
+    background-repeat: no-repeat;
+    background-position:center ; 
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic27{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post27.jpg);
+    background-repeat: no-repeat;
+    background-position:center; 
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+.post-pic28{
+    width: 600px;
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post28.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom; 
+    background-size: cover;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+
+
+
+
+
+
+
+/* post hype */
+.post-hype{
+    width: 600px;
+    height: 70px;
+     background-color:rgb(0, 0, 0);  
+    display: flex;
+    border: solid;
+    border-color: white;
+    border-width: thin;
+    
+}
+.hype {
+    position: absolute;
+    text-decoration: none;
+     background-color: rgb(235, 14, 14); 
+     margin-top: 5px;
+    margin-left: 20px; 
+    width:90px;
+    height: 40px; 
+     border-radius: 6px; 
+     text-align: center;
+     
+}
+.hype:hover{
+    background-color: rgba(184, 8, 8, 0.986);
+    width:100px;
+    height: 40px;
+}
+.hype a{
+    color: white;
+    text-decoration: none;
+ 
+   width: 30px;
+   height: 15px;
+   font-size: 23px;
+
+
+}
+
+#icons-hype{
+    margin-left:100px;
+}
+.save{
+    width:37px;
+    margin-top: 5px;
+    position: absolute; 
+    margin-left: 440px;
+    filter: invert(31%) sepia(100%) saturate(7263%) hue-rotate(359deg) brightness(87%) contrast(116%);  
+}
+.save:hover{
+    filter: invert(8%) sepia(87%) saturate(5968%) hue-rotate(352deg) brightness(86%) contrast(102%);
+}
+
+.fb-icon {
+     position: absolute; 
+    width: 80px;
+     margin-left:250px;   
+    filter: grayscale(100%);
+    margin-top: 2px;  
+}
+.fb-icon:hover{
+    filter: none;
+}
+
+
+.tw-icon{
+    width: 60px;
+     margin-left: 200px; 
+     position: absolute; 
+    filter: grayscale(100%);
+}
+.tw-icon:hover{
+filter:none;
+}
+.pnt-icon{
+   width: 38px;
+    margin-left: 330px; 
+   margin-top: 10px;
+   position: absolute;
+   filter: grayscale(100%);
+}
+.pnt-icon:hover{
+    filter: none;
+}
+.insta-icon{
+     position: absolute; 
+    width: 38px;
+     margin-left:150px; 
+    margin-top:12px ;
+    filter: grayscale(100%);
+
+}
+.insta-icon:hover{
+filter: none;
+}

@@ -1,0 +1,142 @@
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.842);
+    position: fixed;
+    top: 0%;
+    z-index: 10;
+   
+}
+.logo{
+    color: rgb(214, 8, 8);
+    display: flex;
+    margin-top: 15px;
+    gap:10px;
+    /* text-shadow: 2px 2px 5px white ; */
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(237, 237, 243), 0 0 5px rgb(245, 245, 247);
+    
+    
+}
+
+.logo h2{
+    font-size: x-small;
+
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link{
+    text-decoration: none;
+    color: #f1ebeb;
+}
+#first-link{
+    
+    color: rgb(255, 0, 0);
+}
+.nav-link:hover{
+    color: rgb(255, 0, 0);
+}
+ 
+.intro{
+ background-image: url(../res/intro.jpg);
+ height: 500px;
+ position:relative;
+  background-position:center; 
+  background-size: cover; 
+  margin-top: 60px;
+ padding: 0ch;
+}
+.banner{
+    position:absolute;
+    margin-top: 150px;
+    margin-left:220px;
+}
+.banner h1 {
+    font-size:35px;
+    font-weight: bolder;
+    /* text-shadow: 2px 2px 5px rgba(116, 0, 0, 0.973); */
+    text-shadow: -1px 0 rgb(189, 113, 113), 0 1px rgb(173, 160, 160), 1px 0 rgb(151, 10, 10), 0 -1px black;
+}
+.banner h2{
+    margin-left:120px;
+    margin-top: 35px;
+    font-size:30px;
+    text-shadow: -1px 0 rgb(189, 113, 113), 0 1px rgb(173, 160, 160), 1px 0 rgb(151, 10, 10), 0 -1px black;
+}
+.model{
+    margin-top: 200px;
+    margin-left:970px ;
+}
+i{
+    color: #641111;
+}
+.join{
+position: absolute;
+margin-top: 300px;
+margin-left: 300px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+
+.sign-fb{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 40px;
+    /* width: ; */
+    background-color: rgba(244, 243, 247, 0.205);
+    border-radius: 10px;
+    border-style: solid;
+
+}
+.sign-fb:hover{
+    background-color: rgba(255, 255, 255, 0.527);
+}
+.sign-email{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 40px;
+    width: 295px;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 10px;
+    border-style: solid;
+    
+}
+.sign-email:hover{
+    background-color: rgba(255, 255, 255, 0.527);
+}
+#icon{
+    height: 25px;
+    margin-top: 7px;
+    margin-left: 13px;
+
+}
+.sign-link{
+    text-decoration: none;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 300px;
+}
+i{
+    color: black;
+}
+.sign-text{
+    color: black;
+    font-weight:lighter;
+    font-size:20px;
+    margin-top: 8px;
+   margin-left:20px;
+
+}
+
+/* .sign-email .sign-text{
+    margin-right:50px; 
+} */
+
