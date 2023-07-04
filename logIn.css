@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body.html{
+    padding: 0%;
+    margin: 0%;
+}
+main{
+    background-image: url(../res/logIn2.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+background-size:cover;
+
+}
+.navigation {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	z-index: 20;
+	
+}
+.logo {
+    
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(214, 8, 8);
+	display: flex;
+	gap: 10px;
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 25px rgb(237, 237, 243), 0 0 5px rgb(245, 245, 247);
+}
+
+.logo h2 {
+	font-size: x-small;
+}
+.nav-items {
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	list-style: none;
+	gap: 25px;
+	align-items: center;
+	justify-content: center;
+}
+.nav-link {
+	text-decoration: none;
+	color: #f1ebeb;
+}
+.nav-link:hover {
+	color: rgb(255, 0, 0);
+}
+
+.container{
+
+height: 100%;
+align-content: center;
+margin-right: 10;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #ff1212;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #ff1212;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #ff1212;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
